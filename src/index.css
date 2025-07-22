@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.editorDiv{
+  height: 50Vh;
+  background-color: rgb(20, 20, 21);
+}
+
+.editorComponentDiv{
+  height: 100%;
+}
+
+.outputDiv {
+  height: 50vh;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(208, 34, 34, 0.779);
+  padding: 10px 30px;
+}
+
+.runBtn{
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: rgba(208, 34, 34, 0.779);
+  color: white;
+  margin-right: 30px;
+  border-radius: 5px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+
+.logo{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  letter-spacing: .5px;
+}
